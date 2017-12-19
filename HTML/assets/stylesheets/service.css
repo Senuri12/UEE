@@ -15,6 +15,11 @@
     height: 400px;
     background-color: 	#DCDCDC;
 }
+#wrap4{
+    width: 1390px;
+    height: 200px;
+    background-color: 	#DCDCDC;
+}
 .sec1{
     width: 450px;
     height: 123px;
@@ -27,6 +32,7 @@
     height: 123px;
     float: left;
 }
+
 .sec3{
     width: 450px;
     height: 123px;
@@ -41,6 +47,13 @@
     left: 45%;
     right: 50%;
 }
+.newsec{
+    width: 600px;
+    height: 123px;
+    float: left;
+
+}
+
 #twrap{
     width: 1390px;
     height: 700px;
@@ -91,5 +104,14 @@
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     float:right;
     padding: 5px 15px;
+
+}
+.fontings{
+    font-size: 19px;
+}
+.fontings2{
+    width: 1390px;
+    height: 400px;
+    background-color: 	#DCDCDC;
 
 }
