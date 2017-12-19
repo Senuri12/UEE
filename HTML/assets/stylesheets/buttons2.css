@@ -7,8 +7,8 @@
     background-color: #DCDCDC;
 }
 .button2{
-    background-color: #808080;
-    color: white;
+    background-color: white;
+    color: black;
     font-size: 25px;
     border-radius: 40%;
     padding: 13px;
@@ -28,7 +28,7 @@
     color: white;
     border: black;
 
-    background-color: 	#A9A9A9;
+    background-color: 	#1E90FF;
 }
 .button4{
     width: 2.5%;
@@ -41,7 +41,7 @@
 }
 .button5{
     background-color: 	#D3D3D3;
-    color: white;
+    color: black;
     font-size: 25px;
     border-radius: 40%;
     padding: 13px;
