@@ -60,9 +60,9 @@
     <script>
         $(document).ready(function() {
             var readMoreHtml=$(".read-more").html();
-            var lessText =readMoreHtml.substr(0,500)
+            var lessText =readMoreHtml.substr(0,590)
 
-            if(readMoreHtml.length>500)
+            if(readMoreHtml.length>590)
             {
                 $(".read-more").html(lessText).append("<a href='' class='read-more-link' >Show More</a>");
             }else{
@@ -74,7 +74,7 @@
             })
             $("body").on("click",".show-less-link",function () {
                 event.preventDefault();
-                $(this).parent(".read-more").html(readMoreHtml.substr(0,500)).append("<a href='' class='read-more-link' >Show More</a>");
+                $(this).parent(".read-more").html(readMoreHtml.substr(0,600)).append("<a href='' class='read-more-link' >Show More</a>");
             })
         })
     </script>
@@ -322,19 +322,196 @@
                 <div class="nano-content">
                     <nav id="menu" class="nav-main" role="navigation">
                         <ul class="nav nav-main">
-                            <li>
+                            <li class="nav-active">
                                 <a href="index.html">
                                     <i class="fa fa-home" aria-hidden="true"></i>
-                                    <span>Dashboard</span>
+                                    <span>Home</span>
                                 </a>
                             </li>
-                            <li>
-                                <a href="mailbox-folder.html">
-                                    <span class="pull-right label label-primary">182</span>
-                                    <i class="fa fa-envelope" aria-hidden="true"></i>
-                                    <span>Mailbox</span>
+                            <li class="nav-active">
+                                <a>
+                                    <i class="fa fa-users" aria-hidden="true"></i>
+                                    <span>About Us</span>
                                 </a>
                             </li>
+
+                            <!--	<li class="nav-parent">
+                                    <a>
+                                        <i class="fa fa-male" aria-hidden="true"></i>
+                                        <span>Services</span>
+                                    </a>
+                                    <ul class="nav nav-parent">
+                                        <li>
+                                            <a href="pages-signup.html">
+                                                Ladies
+                                            </a>
+                                            <ul >
+                                                <li>
+                                                    <a href="pages-signup.html">
+                                                        Hair
+                                                    </a>
+                                                </li>
+
+                                            </ul>
+                                        </li>
+
+                                    </ul>
+
+
+
+                                </li>
+-->
+
+
+                            <li class="nav-parent">
+                                <a>
+                                    <i class="fa fa-male" aria-hidden="true"></i>
+                                    <span>Services</span>
+                                </a>
+                                <ul class="nav nav-children">
+
+                                    <li class="nav-parent">
+                                        <a>Ladies</a>
+                                        <ul class="nav nav-children">
+
+                                            <li>
+                                                <a href="ladies-hair.html">Hair</a>
+                                            </li>
+                                            <li>
+                                                <a>Skin</a>
+                                            </li>
+                                            <li>
+                                                <a>Nails</a>
+                                            </li>
+                                            <li>
+                                                <a>Other</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-parent">
+                                        <a>Gents</a>
+                                        <ul class="nav nav-children">
+
+                                            <li>
+                                                <a>Hair</a>
+                                            </li>
+                                            <li>
+                                                <a>Skin</a>
+                                            </li>
+
+                                        </ul>
+                                    </li>
+                                    <li class="nav-parent">
+                                        <a>Kids</a>
+                                        <ul class="nav nav-children">
+
+                                            <li>
+                                                <a>Hair</a>
+                                            </li>
+
+                                        </ul>
+                                    </li>
+
+
+
+                                </ul>
+                            </li>
+
+
+
+
+
+                            <li class="nav-parent">
+                                <a>
+                                    <i class="fa fa-book" aria-hidden="true"></i>
+                                    <span>Booking</span>
+                                </a>
+                                <ul class="nav nav-children">
+                                    <li>
+                                        <a href="pages-signup.html">
+                                            Booking Process
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </li>
+                            <li class="nav-parent">
+                                <a>
+                                    <i class="fa fa-list" aria-hidden="true"></i>
+                                    <span>Beauty Tips</span>
+                                </a>
+                                <ul class="nav nav-children">
+                                    <li>
+                                        <a href="pages-signup.html">
+                                            Hair
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="pages-signin.html">
+                                            Skin
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="pages-recover-password.html">
+                                            Nail
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="pages-lock-screen.html">
+                                            Other
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-parent">
+                                <a>
+                                    <i class="fa fa-hand-o-up" aria-hidden="true"></i>
+                                    <span>Social Media</span>
+                                </a>
+                                <ul class="nav nav-children">
+                                    <li>
+                                        <a href="pages-signup.html">
+                                            Twitter
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="pages-signin.html">
+                                            Facebook
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="pages-recover-password.html">
+                                            Instagram
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-parent">
+                                <a>
+                                    <i class="fa fa-cube" aria-hidden="true"></i>
+                                    <span>Our Policies</span>
+                                </a>
+                                <ul class="nav nav-children">
+                                    <li>
+                                        <a href="pages-signup.html">
+                                            Cutomers
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="pages-signin.html">
+                                            Salons
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-active">
+                                <a>
+                                    <i class="fa fa-phone" aria-hidden="true"></i>
+                                    <span>Contact Us</span>
+                                </a>
+                            </li>
+
+
                             <li class="nav-parent">
                                 <a>
                                     <i class="fa fa-copy" aria-hidden="true"></i>
@@ -531,13 +708,13 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="nav-parent nav-expanded nav-active">
+                            <li class="nav-parent">
                                 <a>
                                     <i class="fa fa-list-alt" aria-hidden="true"></i>
                                     <span>Forms</span>
                                 </a>
                                 <ul class="nav nav-children">
-                                    <li class="nav-active">
+                                    <li>
                                         <a href="forms-basic.html">
                                             Basic
                                         </a>
@@ -891,12 +1068,12 @@
 
                                             <div >
                                                 <p>
-                                                <h5 ><b></b>Shapoo</b></h5>
-                                                Shapoo
-                                                Hair washing is the cosmetic act of keeping hair<br>
-                                                clean by washing it with shampooor other detergent <br>
-                                                products and water. Hair conditioner may also be used<br>
-                                                to improvehair's texture and
+
+                                                <h5 ><b></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shapoo</b></h5>
+                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hair washing is the cosmetic act of keeping hair<br>
+                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;clean by washing it with shampooor other detergent <br>
+                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;products and water. Hair conditioner may also be used<br>
+                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;to improvehair's texture and
                                                 <b><a href="">Show More</a></b>
 
                                             </p>
@@ -945,11 +1122,11 @@
 
                                         <div >
                                             <p>
-                                            <h5 ><b></b>Perming</b></h5>
-                                            A permanent wave, commonly called a perm or "permanent",  <br>
-                                            involves the use of heat and/or chemicals to break and  <br>
-                                            reform the cross-linking bonds of the hairstructure. The hair  <br>
-                                            is washed and wrapped
+                                            <h5 ><b></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Perming</b></h5>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A permanent wave, commonly called a perm or "permanent",  <br>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;involves the use of heat and/or chemicals to break and  <br>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reform the cross-linking bonds of the hairstructure. The hair  <br>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;is washed and wrapped
                                             <b><a href="">Show More</a></b>
 
                                             </p>
