@@ -16,12 +16,14 @@
     <!-- Web Fonts  -->
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Shadows+Into+Light" rel="stylesheet" type="text/css">
 
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!-- Vendor CSS -->
     <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.css" />
     <link rel="stylesheet" href="assets/vendor/font-awesome/css/font-awesome.css" />
     <link rel="stylesheet" href="assets/vendor/magnific-popup/magnific-popup.css" />
     <link rel="stylesheet" href="assets/vendor/bootstrap-datepicker/css/datepicker3.css" />
-
+    <link rel="stylesheet" href="assets/stylesheets/service.css" />
     <!-- Specific Page Vendor CSS -->
     <link rel="stylesheet" href="assets/vendor/bootstrap-fileupload/bootstrap-fileupload.min.css" />
 
@@ -38,19 +40,44 @@
     <script src="assets/vendor/modernizr/modernizr.js"></script>
 
 
-    <!-- Slidie show images-->
-    <script type="text/javascript">
-        <!--
-        var S1image1 = new Image()
-        S1image1.src="assets/images/Services/Ladies/Lshampoo.jpg"
-        var S1image2 = new Image()
-        S1image2.src="assets/images/Services/Ladies/Lcut.jpg"
-        var S1image3 = new Image()
-        S1image3.src="assets/images/Services/Ladies/Lblowdry.jpg"
-        //-->
+    <!--&lt;!&ndash; Slidie show images&ndash;&gt;-->
+    <!--<script type="text/javascript">-->
+    <!--&lt;!&ndash;-->
+    <!--var S1image1 = new Image()-->
+    <!--S1image1.src="assets/images/Services/Ladies/Lshampoo.jpg"-->
+    <!--var S1image2 = new Image()-->
+    <!--S1image2.src="assets/images/Services/Ladies/Lcut.jpg"-->
+    <!--var S1image3 = new Image()-->
+    <!--S1image3.src="assets/images/Services/Ladies/Lblowdry.jpg"-->
+    <!--//&ndash;&gt;-->
+    <!--</script>-->
+
+
+
+
+
+    <script src="js/jquery.js"></script>
+    <script>
+        $(document).ready(function() {
+            var readMoreHtml=$(".read-more").html();
+            var lessText =readMoreHtml.substr(0,500)
+
+            if(readMoreHtml.length>500)
+            {
+                $(".read-more").html(lessText).append("<a href='' class='read-more-link' >Show More</a>");
+            }else{
+                $(".read-more").html(readMoreHtml);
+            }
+            $("body").on("click",".read-more-link",function (event) {
+                event.preventDefault();
+                $(this).parent(".read-more").html(readMoreHtml).append("<a href='' class='show-less-link' >Show Less</a>");
+            })
+            $("body").on("click",".show-less-link",function () {
+                event.preventDefault();
+                $(this).parent(".read-more").html(readMoreHtml.substr(0,500)).append("<a href='' class='read-more-link' >Show More</a>");
+            })
+        })
     </script>
-
-
 
 
 </head>
@@ -768,51 +795,229 @@
                         </header>
                         <div class="panel-body">
                             <form class="form-horizontal form-bordered" method="get">
-                                <div class="row" align="left">
-                                    <img src="assets/images/Services/Ladies/Lshampoo.jpg" name="slide" width="150" height="150">
-                                    <script type="text/javascript">
-                                        <!--
-                                            var step=1
-                                            function slideIt(){
-                                                document.images.slide.src=eval("S1image"+step+".src")
-                                                if(step<3)
-                                                    step ++
-                                                else
-                                                    step =1
-                                                setTimeout("slideIt()",2500)
-                                            }
-                                            slideIt()
-                                        //-->
 
-                                    </script>
+
+                                <div id="wrap">
+                                    <div class="sec1">
+                                        <div class="box1">
+                                            Shampoo/ Cut / Blow Dry
+                                        </div><br>
+                                        <!--                                 <img src="assets/images/Services/Ladies/Lshampoo.jpg" name="slide" width="150" height="150">
+                                                                         <script type="text/javascript">
+                                                                             &lt;!&ndash;
+                                                                                 var step=1
+                                                                                 function slideIt(){
+                                                                                     document.images.slide.src=eval("S1image"+step+".src")
+                                                                                     if(step<3)
+                                                                                         step ++
+                                                                                     else
+                                                                                         step =1
+                                                                                     setTimeout("slideIt()",2500)
+                                                                                 }
+                                                                                 slideIt()
+                                                                             //&ndash;&gt;
+
+                                                                         </script>-->
+
+
+                                        <div class="content">
+                                            <div class="read-more">
+                                                <p>
+                                                <h5 ><b></b>Shapoo</b></h5>
+                                                Hair washing is the cosmetic act of keeping hair clean<br>
+                                                by washing it with shampooor other detergent products<br>
+                                                and water. Hair conditioner may also be used to improvehair's<br>
+                                                texture and manageability.<br>
+
+                                                Haircut<br>
+                                                Cutting the hair i different hairstyles.<br>
+
+                                                Blow Dry<br>
+                                                To dry (wet hair) with an electric device (blow-dryer) that<br>
+                                                sends out a stream of heated air. the act ofblow-drying the hair.<br>
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="sec2">
+                                        <div class="box1">
+                                            Shampoo/ Set
+                                        </div><br>
+                                        <div>
+                                            <p>
+                                                <br>
+
+                                            <h5><b></b>Shapoo</b></h5>
+                                            Hair washing is the cosmetic act of keeping hair clean<br>
+                                            by washing it with shampoo or other detergent products<br>
+                                            and water. Hair conditioner may also be used to improve<br>
+                                            hair's texture and manageability.
+
+                                            <b><a href="">Show More</a></b>
+
+
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                    <div class="sec3">
+                                        <div class="box1">
+                                            Tinting
+                                        </div><br><br>
+
+                                        <h5><b>  Tinting</b></h5>
+                                        Hair coloring, or hair dyeing,
+                                        is the practice of changing the<br>
+                                        hair color. The main reasons for
+                                        this are cosmetic: to cover gray <br>
+                                        or white hair, to change to a
+                                        color regarded as more fashionable<br>
+                                        or desirable, to restore the original
+                                        Set<b><a href="">Show More</a></b>
+
+                                    </div>
                                 </div>
+
+
+
+
+                                <div id="wrap">
+                                    <div class="sec1">
+                                        <div class="box1">
+                                            Shampoo/ Blow Dry
+                                        </div><br><br>
+
+
+                                            <div >
+                                                <p>
+                                                <h5 ><b></b>Shapoo</b></h5>
+                                                Shapoo
+                                                Hair washing is the cosmetic act of keeping hair<br>
+                                                clean by washing it with shampooor other detergent <br>
+                                                products and water. Hair conditioner may also be used<br>
+                                                to improvehair's texture and
+                                                <b><a href="">Show More</a></b>
+
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                    <div class="sec2">
+                                        <div class="box1">
+                                            Conditioning Treatment
+                                        </div><br>
+                                        <div>
+                                            <p>
+                                                <br>
+
+                                            <h5><b></b>Condition</b></h5>
+                                            Deep Conditioning Treatment For Your Natural Hair.By<br>
+                                            imparting moisture, improving texture, and penetrating<br>
+                                            the hair shaft, conditioning treatments can help reduce<br>
+                                            breakage and split
+                                            <b><a href="">Show More</a></b>
+
+
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                    <div class="sec3">
+                                        <div class="box1">
+                                            Highlighting
+                                        </div><br><br>
+
+                                        <h5><b>  Highlighting</b></h5>
+                                        Hair highlighting/lowlighting is changing hair color,using lightener <br>
+                                        or haircolor to color hair strands.There are four basic types of <br>
+                                        highlights foil highlights, hair painting,frosting, and chunking.  <br>
+                                        Highlights done in natural colours.<b><a href="">Show More</a></b>
+
+                                    </div>
+                                </div>
+                                <div id="wrap">
+                                    <div class="sec1">
+                                        <div class="box1">
+                                            Perming
+                                        </div><br><br>
+
+
+                                        <div >
+                                            <p>
+                                            <h5 ><b></b>Perming</b></h5>
+                                            A permanent wave, commonly called a perm or "permanent",  <br>
+                                            involves the use of heat and/or chemicals to break and  <br>
+                                            reform the cross-linking bonds of the hairstructure. The hair  <br>
+                                            is washed and wrapped
+                                            <b><a href="">Show More</a></b>
+
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                    <div class="sec2">
+                                        <div class="box1">
+                                            Straightning / Re-bonding
+                                        </div><br>
+                                        <div>
+                                            <p>
+                                                <br>
+
+                                            <h5><b></b>  Straightning   </b></h5>
+                                            Hair straightening is a hair styling technique used <br>
+                                            since the 1890s involving the flattening  andstraightening <br>
+                                            of hair in order to give it a smooth, streamlined, and <br>
+                                            sleek appearance. ... If done often,
+                                            <b><a href="">Show More</a></b>
+
+
+                                            </p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                             </form>
                         </div>
                     </section>
 
 
+                    <!-- Vendor -->
+                    <script src="assets/vendor/jquery/jquery.js"></script>
+                    <script src="assets/vendor/jquery-browser-mobile/jquery.browser.mobile.js"></script>
+                    <script src="assets/vendor/bootstrap/js/bootstrap.js"></script>
+                    <script src="assets/vendor/nanoscroller/nanoscroller.js"></script>
+                    <script src="assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+                    <script src="assets/vendor/magnific-popup/magnific-popup.js"></script>
+                    <script src="assets/vendor/jquery-placeholder/jquery.placeholder.js"></script>
 
-<!-- Vendor -->
-<script src="assets/vendor/jquery/jquery.js"></script>
-<script src="assets/vendor/jquery-browser-mobile/jquery.browser.mobile.js"></script>
-<script src="assets/vendor/bootstrap/js/bootstrap.js"></script>
-<script src="assets/vendor/nanoscroller/nanoscroller.js"></script>
-<script src="assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
-<script src="assets/vendor/magnific-popup/magnific-popup.js"></script>
-<script src="assets/vendor/jquery-placeholder/jquery.placeholder.js"></script>
+                    <!-- Specific Page Vendor -->
+                    <script src="assets/vendor/jquery-autosize/jquery.autosize.js"></script>
+                    <script src="assets/vendor/bootstrap-fileupload/bootstrap-fileupload.min.js"></script>
 
-<!-- Specific Page Vendor -->
-<script src="assets/vendor/jquery-autosize/jquery.autosize.js"></script>
-<script src="assets/vendor/bootstrap-fileupload/bootstrap-fileupload.min.js"></script>
+                    <!-- Theme Base, Components and Settings -->
+                    <script src="assets/javascripts/theme.js"></script>
 
-<!-- Theme Base, Components and Settings -->
-<script src="assets/javascripts/theme.js"></script>
+                    <!-- Theme Custom -->
+                    <script src="assets/javascripts/theme.custom.js"></script>
 
-<!-- Theme Custom -->
-<script src="assets/javascripts/theme.custom.js"></script>
-
-<!-- Theme Initialization Files -->
-<script src="assets/javascripts/theme.init.js"></script>
+                    <!-- Theme Initialization Files -->
+                    <script src="assets/javascripts/theme.init.js"></script>
 
 </body>
 </html>

@@ -1,0 +1,52 @@
+.box1{
+    text-align: center;
+    border: 1px white ;
+    width: 200px;
+    height: 25px;
+    font-family: "Source Code Pro", "Consolas", "Monaco", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
+    font-size: large;
+    font-family: bold;
+    color:white;
+    background-color: black;
+}
+
+#wrap{
+    width: 1390px;
+    height: 400px;
+    background-color: 	#DCDCDC;
+}
+.sec1{
+    width: 450px;
+    height: 123px;
+    float: left;
+    background-color: 	#DCDCDC;
+
+}
+.sec2{
+    width: 450px;
+    height: 123px;
+    float: left;
+}
+.sec3{
+    width: 450px;
+    height: 123px;
+    float: left;
+}
+
+.content{
+    margin: 0 auto;
+    width:600px;
+    padding: 10px;
+    min-height: 300px;
+    align:left;
+
+}
+
+.read-more{
+    padding :15px;
+    margin-bottom: 20px;
+}
+.read-more-link,.show-less-link{
+    text-decoration: none;
+    font-weight: bolder;
+}
