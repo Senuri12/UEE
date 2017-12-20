@@ -32,6 +32,17 @@
 
     <!-- Head Libs -->
     <script src="assets/vendor/modernizr/modernizr.js"></script>
+    <script type="text/javascript">
+        function show() {
+            document.getElementById("myDiv").style.display="block";
+            setTimeout("hide()", 5000);  // 5 seconds
+        }
+
+        function hide() {
+            document.getElementById("myDiv").style.display="none";
+            window.location.assign("index.html");
+        }
+    </script>
 
 </head>
 <body>
@@ -82,7 +93,8 @@
                     <div class="row" align="right">
 
                         <a href="customer-signup.html" class="btn btn-primary hidden-xs">Previous</a>&nbsp;&nbsp;&nbsp;
-                        <a href="index.html" class="btn btn-primary hidden-xs">Sign Up</a>&nbsp;&nbsp;&nbsp;
+                        <button type="button" class="btn btn-primary hidden-xs"  onclick = "show()">Sign Up</button>
+                        <div id = "myDiv" style="display:none"><img id = "myImage" src = "assets\images\ajax-loader.gif"></div><br>
                     </div>
 
 
