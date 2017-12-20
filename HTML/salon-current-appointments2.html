@@ -38,6 +38,16 @@
     <!-- Head Libs -->
     <script src="assets/vendor/modernizr/modernizr.js"></script>
 
+    <script>
+        function printing(p1) {
+            var restorepage =document.body.innerHTML;
+            var printcontent = document.getElementById(p1).innerHTML;
+            document.body.innerHTML = printcontent;
+            window.print();
+            document.body.innerHTML = restorepage;
+        }
+    </script>
+
 </head>
 <body>
 <section class="body">
@@ -925,6 +935,7 @@
 
                     <h2 class="panel-title">Current Appointments</h2>
                 </header>
+                <div id="appoinment">
                 <div class="panel-body">
                     <table class="table table-bordered table-striped" id="datatable-ajax">
                         <thead>
@@ -1189,8 +1200,11 @@
                     </table>
                     <br>
                     <div class="row" align="right">
-                        <td><button type="print" class="btn btn-primary hidden-xs">Print Appointments</button></td>
+                        <td><button onclick="printing('appoinment')"type="print" class="btn btn-primary hidden-xs">Print Appointments</button></td>
                     </div>
+                </div>
+                    <br>
+
                 </div>
             </section>
             <!-- end: page -->

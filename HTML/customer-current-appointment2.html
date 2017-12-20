@@ -39,7 +39,6 @@
 
     <!-- Head Libs -->
     <script src="assets/vendor/modernizr/modernizr.js"></script>
-
     <script>
         function printing(p1) {
             var restorepage =document.body.innerHTML;
@@ -49,7 +48,6 @@
             document.body.innerHTML = restorepage;
         }
     </script>
-
 
 </head>
 <body>
@@ -922,7 +920,7 @@
                                 <i class="fa fa-home"></i>
                             </a>
                         </li>
-                                <li><span>Current Appointment</span></li>
+                        <li><span>Current Appointment</span></li>
                     </ol>
 
                     <a class="sidebar-right-toggle" data-open="sidebar-right"><i class="fa fa-chevron-left"></i></a>
@@ -937,139 +935,133 @@
                         <a href="#" class="fa fa-times"></a>
                     </div>
 
-                    <h2 class="panel-title">Current Appointment </h2>
+                        <h2 class="panel-title">Current Appointment </h2>
+
                 </header>
                 <div id="appoinment">
 
                 <div class="panel-body">
-                    <table class="table table-bordered table-striped" id="datatable-ajax">
-                        <thead>
-                        <tr>
-                            <th width="20%">Appontment Number</th>
-                            <th width="25%">Salon Image</th>
-                            <th width="25%">Salon Name</th>
-                            <th width="15%">Salon Telephone</th>
-                            <th width="15%">Service</th>
-                            <th width="20%">Product</th>
-                            <th width="25%">Time</th>
-                            <th width="25%">Date</th>
-                            <th width="15%">Description</th>
-                            <th width="15%">Total (Rs)</th>
-                            <th width="15%">Cancel</th>
-                        </tr>
-                        </thead>
-                        <tr>
-                            <td>AN00019</td>
-                            <td> <img src="assets\images\salons\s3.jpg"></td>
-                            <td>Salon Pabalu</td>
-                            <td>0112758996</td>
-                            <td>Ladies-Shampoo/ Set</td>
-                            <td>Oriflame</td>
-                            <td>9:30 PM </td>
-                            <td>01/25/2018</td>
-                            <td>Short Hair</td>
-                            <td>Rs 1000.00</td>
-                            <td> <a href="customer-current-appointment2.html" class="button3a"type="button">&nbsp;Cancel&nbsp;</a></td>
-                        </tr>
-                        <tr>
-                            <td>AN00020</td>
-                            <td> <img src="assets\images\salons\s4.jpg"></td>
-                            <td>Scissors</td>
-                            <td>0112456366</td>
-                            <td>Ladies-Tinting</td>
-                            <td>Viana</td>
-                            <td>5:30 PM</td>
-                            <td>01/17/2018</td>
-                            <td>Dry Hair</td>
-                            <td>Rs 2000.00</td>
-                            <td><button type="done" class="btn btn-primary hidden-xs">Cancel</button></td>
 
-                        </tr>
+                <table class="table table-bordered table-striped" id="datatable-ajax">
+
+                    <thead>
+                    <tr>
+                        <th width="20%">Appontment Number</th>
+                        <th width="25%">Salon Image</th>
+                        <th width="25%">Salon Name</th>
+                        <th width="15%">Salon Telephone</th>
+                        <th width="15%">Service</th>
+                        <th width="20%">Product</th>
+                        <th width="25%">Time</th>
+                        <th width="25%">Date</th>
+                        <th width="15%">Description</th>
+                        <th width="15%">Total (Rs)</th>
+                        <th width="15%">Cancel</th>
+                    </tr>
+                    </thead>
+
+                    <tr>
+                        <td>AN00020</td>
+                        <td> <img src="assets\images\salons\s4.jpg"></td>
+                        <td>Scissors</td>
+                        <td>0112456366</td>
+                        <td>Ladies-Tinting</td>
+                        <td>Viana</td>
+                        <td>5:30 PM</td>
+                        <td>01/17/2018</td>
+                        <td>Dry Hair</td>
+                        <td>Rs 2000.00</td>
+                        <td><button type="done" class="btn btn-primary hidden-xs">Cancel</button></td>
+
+                    </tr>
 
 
-                        <tbody>
-                        </tbody>
-                    </table>
+                    <tbody>
+                    </tbody>
+                </table>
                     <br>
                     <div class="row" align="right">
                         <td><button onclick="printing('appoinment')"type="print" class="btn btn-primary hidden-xs">Print Appointments</button></td>
                     </div>
                 </div>
-                    <br>
 
-                </div>
-            </section>
-            <!-- end: page -->
-        </section>
     </div>
 
-    <aside id="sidebar-right" class="sidebar-right">
-        <div class="nano">
-            <div class="nano-content">
-                <a href="#" class="mobile-close visible-xs">
-                    Collapse <i class="fa fa-chevron-right"></i>
-                </a>
 
-                <div class="sidebar-right-wrapper">
+    <!--</div>
+          -->
+</section>
+<!-- end: page -->
+</section>
+</div>
 
-                    <div class="sidebar-widget widget-calendar">
-                        <h6>Upcoming Tasks</h6>
-                        <div data-plugin-datepicker data-plugin-skin="dark" ></div>
+<aside id="sidebar-right" class="sidebar-right">
+    <div class="nano">
+        <div class="nano-content">
+            <a href="#" class="mobile-close visible-xs">
+                Collapse <i class="fa fa-chevron-right"></i>
+            </a>
 
-                        <ul>
-                            <li>
-                                <time datetime="2014-04-19T00:00+00:00">04/19/2014</time>
-                                <span>Company Meeting</span>
-                            </li>
-                        </ul>
-                    </div>
+            <div class="sidebar-right-wrapper">
 
-                    <div class="sidebar-widget widget-friends">
-                        <h6>Friends</h6>
-                        <ul>
-                            <li class="status-online">
-                                <figure class="profile-picture">
-                                    <img src="assets/images/!sample-user.jpg" alt="Joseph Doe" class="img-circle">
-                                </figure>
-                                <div class="profile-info">
-                                    <span class="name">Joseph Doe Junior</span>
-                                    <span class="title">Hey, how are you?</span>
-                                </div>
-                            </li>
-                            <li class="status-online">
-                                <figure class="profile-picture">
-                                    <img src="assets/images/!sample-user.jpg" alt="Joseph Doe" class="img-circle">
-                                </figure>
-                                <div class="profile-info">
-                                    <span class="name">Joseph Doe Junior</span>
-                                    <span class="title">Hey, how are you?</span>
-                                </div>
-                            </li>
-                            <li class="status-offline">
-                                <figure class="profile-picture">
-                                    <img src="assets/images/!sample-user.jpg" alt="Joseph Doe" class="img-circle">
-                                </figure>
-                                <div class="profile-info">
-                                    <span class="name">Joseph Doe Junior</span>
-                                    <span class="title">Hey, how are you?</span>
-                                </div>
-                            </li>
-                            <li class="status-offline">
-                                <figure class="profile-picture">
-                                    <img src="assets/images/!sample-user.jpg" alt="Joseph Doe" class="img-circle">
-                                </figure>
-                                <div class="profile-info">
-                                    <span class="name">Joseph Doe Junior</span>
-                                    <span class="title">Hey, how are you?</span>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
+                <div class="sidebar-widget widget-calendar">
+                    <h6>Upcoming Tasks</h6>
+                    <div data-plugin-datepicker data-plugin-skin="dark" ></div>
 
+                    <ul>
+                        <li>
+                            <time datetime="2014-04-19T00:00+00:00">04/19/2014</time>
+                            <span>Company Meeting</span>
+                        </li>
+                    </ul>
                 </div>
+
+                <div class="sidebar-widget widget-friends">
+                    <h6>Friends</h6>
+                    <ul>
+                        <li class="status-online">
+                            <figure class="profile-picture">
+                                <img src="assets/images/!sample-user.jpg" alt="Joseph Doe" class="img-circle">
+                            </figure>
+                            <div class="profile-info">
+                                <span class="name">Joseph Doe Junior</span>
+                                <span class="title">Hey, how are you?</span>
+                            </div>
+                        </li>
+                        <li class="status-online">
+                            <figure class="profile-picture">
+                                <img src="assets/images/!sample-user.jpg" alt="Joseph Doe" class="img-circle">
+                            </figure>
+                            <div class="profile-info">
+                                <span class="name">Joseph Doe Junior</span>
+                                <span class="title">Hey, how are you?</span>
+                            </div>
+                        </li>
+                        <li class="status-offline">
+                            <figure class="profile-picture">
+                                <img src="assets/images/!sample-user.jpg" alt="Joseph Doe" class="img-circle">
+                            </figure>
+                            <div class="profile-info">
+                                <span class="name">Joseph Doe Junior</span>
+                                <span class="title">Hey, how are you?</span>
+                            </div>
+                        </li>
+                        <li class="status-offline">
+                            <figure class="profile-picture">
+                                <img src="assets/images/!sample-user.jpg" alt="Joseph Doe" class="img-circle">
+                            </figure>
+                            <div class="profile-info">
+                                <span class="name">Joseph Doe Junior</span>
+                                <span class="title">Hey, how are you?</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
             </div>
         </div>
-    </aside>
+    </div>
+</aside>
 </section>
 
 <!-- Vendor -->
