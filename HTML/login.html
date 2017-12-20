@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="assets/vendor/font-awesome/css/font-awesome.css" />
     <link rel="stylesheet" href="assets/vendor/magnific-popup/magnific-popup.css" />
     <link rel="stylesheet" href="assets/vendor/bootstrap-datepicker/css/datepicker3.css" />
+    <link rel="stylesheet" href="assets/stylesheets/loader.css" />
 
     <!-- Theme CSS -->
     <link rel="stylesheet" href="assets/stylesheets/theme.css" />
@@ -32,6 +33,17 @@
 
     <!-- Head Libs -->
     <script src="assets/vendor/modernizr/modernizr.js"></script>
+    <script type="text/javascript">
+        function show() {
+            document.getElementById("myDiv").style.display="block";
+            setTimeout("hide()", 5000);  // 5 seconds
+        }
+
+        function hide() {
+            document.getElementById("myDiv").style.display="none";
+            window.location.assign("index.html");
+        }
+    </script>
 
 </head>
 <body>
@@ -83,7 +95,8 @@
                             </div>
                         </div>
                         <div class="col-sm-4 text-right">
-                            <button type="submit" class="btn btn-primary hidden-xs">Sign In</button>
+                            <button type="button" class="btn btn-primary hidden-xs"  onclick = "show()">Sign In</button>
+                            <div id = "myDiv" style="display:none"><img id = "myImage" src = "assets\images\ajax-loader.gif"></div><br>
                             <button type="submit" class="btn btn-primary btn-block btn-lg visible-xs mt-lg">Sign In</button>
                         </div>
                     </div>

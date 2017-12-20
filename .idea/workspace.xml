@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f13e7af8-0237-4525-8bab-d46887c720cc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/customer-current-appointment2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/assets/stylesheets/loader.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/customer-appointment-hostory.html" afterPath="$PROJECT_DIR$/HTML/customer-appointment-hostory.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/customer-current-appointments.html" afterPath="$PROJECT_DIR$/HTML/customer-current-appointments.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/salon-current-appointments.html" afterPath="$PROJECT_DIR$/HTML/salon-current-appointments.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/salon-current-appointments2.html" afterPath="$PROJECT_DIR$/HTML/salon-current-appointments2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/login.html" afterPath="$PROJECT_DIR$/HTML/login.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -61,8 +58,8 @@
       <file leaf-file-name="customer-current-appointments.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HTML/customer-current-appointments.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="992" column="24" lean-forward="false" selection-start-line="992" selection-start-column="24" selection-end-line="992" selection-end-column="24" />
+            <state relative-caret-position="414">
+              <caret line="973" column="28" lean-forward="true" selection-start-line="973" selection-start-column="28" selection-end-line="973" selection-end-column="28" />
               <folding>
                 <element signature="e#48661#48667#0" expanded="true" />
                 <element signature="e#48673#48679#0" expanded="true" />
@@ -71,11 +68,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="customer-current-appointment2.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="customer-current-appointment2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HTML/customer-current-appointment2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="43" column="23" lean-forward="true" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
+            <state relative-caret-position="312">
+              <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loader.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HTML/assets/stylesheets/loader.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="50" column="1" lean-forward="false" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -84,8 +91,8 @@
       <file leaf-file-name="salon-current-appointments.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HTML/salon-current-appointments.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="1207" column="0" lean-forward="true" selection-start-line="1207" selection-start-column="0" selection-end-line="1207" selection-end-column="0" />
+            <state relative-caret-position="301">
+              <caret line="987" column="43" lean-forward="false" selection-start-line="987" selection-start-column="43" selection-end-line="987" selection-end-column="66" />
               <folding>
                 <element signature="e#48677#48683#0" expanded="true" />
                 <element signature="e#48687#48693#0" expanded="true" />
@@ -97,29 +104,21 @@
       <file leaf-file-name="salon-current-appointments2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HTML/salon-current-appointments2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="4329">
               <caret line="1200" column="24" lean-forward="false" selection-start-line="1200" selection-start-column="24" selection-end-line="1200" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HTML/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1105">
-              <caret line="65" column="52" lean-forward="true" selection-start-line="65" selection-start-column="52" selection-end-line="65" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pages-recover-password.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTML/pages-recover-password.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="272">
+              <caret line="43" column="49" lean-forward="false" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="49" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#form#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -141,8 +140,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -174,10 +173,10 @@
       <find>service</find>
       <find>prin</find>
       <find>print appo</find>
-      <find>alert</find>
-      <find>title</find>
-      <find>print ap</find>
       <find>print</find>
+      <find>alert</find>
+      <find>print ap</find>
+      <find>title</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -223,12 +222,14 @@
         <option value="$PROJECT_DIR$/HTML/salonlist-ladiesother.html" />
         <option value="$PROJECT_DIR$/HTML/salonlist-ladiesskin.html" />
         <option value="$PROJECT_DIR$/HTML/customer-password recover.html" />
-        <option value="$PROJECT_DIR$/HTML/login.html" />
         <option value="$PROJECT_DIR$/HTML/customer-appointment-hostory.html" />
         <option value="$PROJECT_DIR$/HTML/customer-current-appointment2.html" />
         <option value="$PROJECT_DIR$/HTML/salon-current-appointments2.html" />
         <option value="$PROJECT_DIR$/HTML/salon-current-appointments.html" />
         <option value="$PROJECT_DIR$/HTML/customer-current-appointments.html" />
+        <option value="$PROJECT_DIR$/HTML/assets/stylesheets/skins/loader.css" />
+        <option value="$PROJECT_DIR$/HTML/assets/stylesheets/loader.css" />
+        <option value="$PROJECT_DIR$/HTML/login.html" />
       </list>
     </option>
   </component>
@@ -374,11 +375,8 @@
       <recent name="E:\SLIIT\3rd year\2nd semester\UEE\Assignments\A6\Salon Site\HTML\assets\stylesheets" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.customer-current-appointment2.html">
+  <component name="RunManager" selected="JavaScript Debug.login.html">
     <configuration default="false" name="customer-current-appointments.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Salon Site/HTML/customer-current-appointments.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="customer-appointment-hostory.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Salon Site/HTML/customer-appointment-hostory.html">
       <method />
     </configuration>
     <configuration default="false" name="customer-current-appointment2.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Salon Site/HTML/customer-current-appointment2.html">
@@ -388,6 +386,9 @@
       <method />
     </configuration>
     <configuration default="false" name="salon-current-appointments2.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Salon Site/HTML/salon-current-appointments2.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="login.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Salon Site/HTML/login.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -451,18 +452,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.customer-current-appointments.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.customer-appointment-hostory.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.customer-current-appointment2.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.salon-current-appointments.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.salon-current-appointments2.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.customer-current-appointment2.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.salon-current-appointments.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.salon-current-appointments2.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.login.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.customer-current-appointment2.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.customer-current-appointments.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.salon-current-appointments.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.salon-current-appointments2.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.customer-appointment-hostory.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.login.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.customer-current-appointment2.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.customer-current-appointments.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.salon-current-appointments.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.salon-current-appointments2.html" />
       </list>
     </recent_temporary>
   </component>
@@ -484,12 +485,12 @@
       <workItem from="1513573622511" duration="36739000" />
       <workItem from="1513653717311" duration="57607000" />
       <workItem from="1513744789253" duration="28206000" />
-      <workItem from="1513774921991" duration="8825000" />
+      <workItem from="1513774921991" duration="10617000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136190000" />
+    <option name="totallyTimeSpent" value="137982000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1379" height="745" extended-state="0" />
@@ -524,20 +525,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HTML/tables-ajax.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="861">
-          <caret line="762" column="43" lean-forward="false" selection-start-line="762" selection-start-column="43" selection-end-line="762" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/assets/stylesheets/theme-admin-extension.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HTML/n2.html" />
     <entry file="file://$PROJECT_DIR$/HTML/assets/stylesheets/skins/new.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -900,8 +887,8 @@
         <state relative-caret-position="215">
           <caret line="1156" column="0" lean-forward="true" selection-start-line="1156" selection-start-column="0" selection-end-line="1156" selection-end-column="0" />
           <folding>
-            <element signature="e#53465#53472#0" expanded="true" />
-            <element signature="e#60726#60733#0" expanded="true" />
+            <element signature="e#53465#53472#0" expanded="false" />
+            <element signature="e#60726#60733#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -911,8 +898,8 @@
         <state relative-caret-position="1149">
           <caret line="1142" column="0" lean-forward="true" selection-start-line="1142" selection-start-column="0" selection-end-line="1142" selection-end-column="0" />
           <folding>
-            <element signature="e#53218#53225#0" expanded="true" />
-            <element signature="e#59866#59873#0" expanded="true" />
+            <element signature="e#53218#53225#0" expanded="false" />
+            <element signature="e#59866#59873#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -922,8 +909,8 @@
         <state relative-caret-position="371">
           <caret line="1070" column="0" lean-forward="true" selection-start-line="1070" selection-start-column="0" selection-end-line="1070" selection-end-column="0" />
           <folding>
-            <element signature="e#54656#54663#0" expanded="true" />
-            <element signature="e#61359#61366#0" expanded="true" />
+            <element signature="e#54656#54663#0" expanded="false" />
+            <element signature="e#61359#61366#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -933,8 +920,8 @@
         <state relative-caret-position="410">
           <caret line="1069" column="0" lean-forward="true" selection-start-line="1069" selection-start-column="0" selection-end-line="1069" selection-end-column="0" />
           <folding>
-            <element signature="e#54601#54608#0" expanded="true" />
-            <element signature="e#61303#61310#0" expanded="true" />
+            <element signature="e#54601#54608#0" expanded="false" />
+            <element signature="e#61303#61310#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -984,33 +971,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="65" column="52" lean-forward="true" selection-start-line="65" selection-start-column="52" selection-end-line="65" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/salon-current-appointments2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="1200" column="24" lean-forward="false" selection-start-line="1200" selection-start-column="24" selection-end-line="1200" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/salon-current-appointments.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="1207" column="0" lean-forward="true" selection-start-line="1207" selection-start-column="0" selection-end-line="1207" selection-end-column="0" />
-          <folding>
-            <element signature="e#48677#48683#0" expanded="true" />
-            <element signature="e#48687#48693#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HTML/customer-appointment-hostory.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1019,10 +979,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/assets/stylesheets/skins/loader.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/salon-current-appointments2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4329">
+          <caret line="1200" column="24" lean-forward="false" selection-start-line="1200" selection-start-column="24" selection-end-line="1200" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/HTML/customer-current-appointments.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="992" column="24" lean-forward="false" selection-start-line="992" selection-start-column="24" selection-end-line="992" selection-end-column="24" />
+        <state relative-caret-position="414">
+          <caret line="973" column="28" lean-forward="true" selection-start-line="973" selection-start-column="28" selection-end-line="973" selection-end-column="28" />
           <folding>
             <element signature="e#48661#48667#0" expanded="true" />
             <element signature="e#48673#48679#0" expanded="true" />
@@ -1030,11 +1006,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/salon-current-appointments.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="987" column="43" lean-forward="false" selection-start-line="987" selection-start-column="43" selection-end-line="987" selection-end-column="66" />
+          <folding>
+            <element signature="e#48677#48683#0" expanded="true" />
+            <element signature="e#48687#48693#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/assets/stylesheets/loader.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="50" column="1" lean-forward="false" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/HTML/customer-current-appointment2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="43" column="23" lean-forward="true" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
+        <state relative-caret-position="312">
+          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="43" column="49" lean-forward="false" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="49" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#form#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
