@@ -5,7 +5,7 @@
     <!-- Basic -->
     <meta charset="UTF-8">
 
-    <title>Basic Forms | Okler Themes | Porto-Admin</title>
+    <title>Salon List</title>
     <meta name="keywords" content="HTML5 Admin Template" />
     <meta name="description" content="Porto Admin - Responsive HTML5 Template">
     <meta name="author" content="okler.net">
@@ -43,20 +43,6 @@
     <script src="assets/vendor/modernizr/modernizr.js"></script>
 
 
-    <!--&lt;!&ndash; Slidie show images&ndash;&gt;-->
-    <!--<script type="text/javascript">-->
-    <!--&lt;!&ndash;-->
-    <!--var S1image1 = new Image()-->
-    <!--S1image1.src="assets/images/Services/Ladies/Lshampoo.jpg"-->
-    <!--var S1image2 = new Image()-->
-    <!--S1image2.src="assets/images/Services/Ladies/Lcut.jpg"-->
-    <!--var S1image3 = new Image()-->
-    <!--S1image3.src="assets/images/Services/Ladies/Lblowdry.jpg"-->
-    <!--//&ndash;&gt;-->
-    <!--</script>-->
-
-
-
 
 
     <script src="js/jquery.js"></script>
@@ -81,6 +67,16 @@
             })
         })
     </script>
+    <script type="text/javascript">
+
+
+        $(document).ready(function(){
+            $('button').click(function(){
+                $('.alert').show()
+            })
+        });
+    </script>
+
 
 
 </head>
@@ -945,7 +941,7 @@
 
         <section role="main" class="content-body">
             <header class="page-header">
-                <h2>Basic Forms</h2>
+                <h2>Salon List </h2>
 
                 <div class="right-wrapper pull-right">
                     <ol class="breadcrumbs">
@@ -954,8 +950,8 @@
                                 <i class="fa fa-home"></i>
                             </a>
                         </li>
-                        <li><span>Forms</span></li>
-                        <li><span>Basic</span></li>
+                        <li><span>Services</span></li>
+                        <li><span>Salon List</span></li>
                     </ol>
 
                     <a class="sidebar-right-toggle" data-open="sidebar-right"><i class="fa fa-chevron-left"></i></a>
@@ -972,7 +968,7 @@
                                 <a href="#" class="fa fa-times"></a>
                             </div>
 
-                            <h2 class="panel-title">Form Elements</h2>
+                            <h2 class="panel-title">Salon List </h2>
                         </header>
                         <div class="panel-body">
                             <form class="form-horizontal form-bordered" method="get">
@@ -1067,7 +1063,12 @@
 
                                         </div>
 
-                                        <button class="button1"type="button">Add to caart!</button>
+                                        <button  class="button1">Add to cart</button>
+                                        <div class="alert alert-success alert-dismissable">
+                                            <button type="button"  class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                                            Success! appointment was added to cart successfully.
+                                        </div>
+
                                     </div>
                                 </div>
 
@@ -1170,8 +1171,12 @@
 
 
                                     </div>
+                                    <button  class="button1">Add to cart</button>
+                                    <div class="alert alert-success alert-dismissable">
+                                        <button type="button"  class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                                        Success! appointment was added to cart successfully.
+                                    </div>
 
-                                    <button class="button1"type="button">Add to caart!</button>
                                 </div>
                                 <br>
 

@@ -166,3 +166,6 @@
 .selbox1{
     height : 5%;
 }
+.alert{
+    display: none;
+}
