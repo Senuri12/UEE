@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f13e7af8-0237-4525-8bab-d46887c720cc" name="Default" comment="" />
+    <list default="true" id="f13e7af8-0237-4525-8bab-d46887c720cc" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/assets/stylesheets/service.css" afterPath="$PROJECT_DIR$/HTML/assets/stylesheets/service.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/login.html" afterPath="$PROJECT_DIR$/HTML/login.html" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -21,8 +24,8 @@
       <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HTML/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="97" column="6" lean-forward="false" selection-start-line="97" selection-start-column="6" selection-end-line="97" selection-end-column="6" />
+            <state relative-caret-position="272">
+              <caret line="52" column="17" lean-forward="false" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#form#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -70,17 +73,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="service.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="service.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HTML/assets/stylesheets/service.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="132" column="8" lean-forward="false" selection-start-line="132" selection-start-column="8" selection-end-line="132" selection-end-column="8" />
+            <state relative-caret-position="410">
+              <caret line="176" column="31" lean-forward="false" selection-start-line="176" selection-start-column="31" selection-end-line="176" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HTML/home.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -161,9 +164,9 @@
       <find>servi</find>
       <find>serv</find>
       <find>single</find>
-      <find>service</find>
       <find>su</find>
       <find>succ</find>
+      <find>service</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -214,10 +217,10 @@
         <option value="$PROJECT_DIR$/HTML/shopping-cart.html" />
         <option value="$PROJECT_DIR$/HTML/shopping-cart-cancel.html" />
         <option value="$PROJECT_DIR$/HTML/shopping-cart-discount.html" />
-        <option value="$PROJECT_DIR$/HTML/assets/stylesheets/service.css" />
-        <option value="$PROJECT_DIR$/HTML/login.html" />
         <option value="$PROJECT_DIR$/HTML/Appointment-success.html" />
         <option value="$PROJECT_DIR$/HTML/Booking-process.html" />
+        <option value="$PROJECT_DIR$/HTML/login.html" />
+        <option value="$PROJECT_DIR$/HTML/assets/stylesheets/service.css" />
       </list>
     </option>
   </component>
@@ -363,7 +366,7 @@
       <recent name="E:\SLIIT\3rd year\2nd semester\UEE\Assignments\A6\Salon Site\HTML\assets\stylesheets" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.login.html">
+  <component name="RunManager" selected="JavaScript Debug.Appointment-success.html">
     <configuration default="false" name="login.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Salon Site/HTML/login.html">
       <method />
     </configuration>
@@ -447,11 +450,11 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.login.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.customer-current-appointments.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.ladies-other-services.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.ladies-hair.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.Appointment-success.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Appointment-success.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.login.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.customer-current-appointments.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.ladies-other-services.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.ladies-hair.html" />
       </list>
     </recent_temporary>
   </component>
@@ -475,12 +478,12 @@
       <workItem from="1513744789253" duration="28206000" />
       <workItem from="1513774921991" duration="11293000" />
       <workItem from="1513834485813" duration="2754000" />
-      <workItem from="1513858804684" duration="10904000" />
+      <workItem from="1513858804684" duration="12600000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152316000" />
+    <option name="totallyTimeSpent" value="154012000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1365" height="745" extended-state="0" />
@@ -798,16 +801,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="97" column="6" lean-forward="false" selection-start-line="97" selection-start-column="6" selection-end-line="97" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#form#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HTML/ladies-other-services.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="346">
@@ -840,18 +833,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/assets/stylesheets/service.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="132" column="8" lean-forward="false" selection-start-line="132" selection-start-column="8" selection-end-line="132" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HTML/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="52" column="17" lean-forward="false" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#form#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/assets/stylesheets/service.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="176" column="31" lean-forward="false" selection-start-line="176" selection-start-column="31" selection-end-line="176" selection-end-column="31" />
           <folding />
         </state>
       </provider>
