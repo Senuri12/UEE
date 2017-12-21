@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f13e7af8-0237-4525-8bab-d46887c720cc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Appointment-success.html" afterPath="$PROJECT_DIR$/HTML/Appointment-success.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/Booking-process.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,11 +33,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Appointment-success.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Appointment-success.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HTML/Appointment-success.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="218">
               <caret line="980" column="92" lean-forward="true" selection-start-line="980" selection-start-column="92" selection-end-line="980" selection-end-column="92" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Booking-process.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HTML/Booking-process.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1034">
+              <caret line="1165" column="7" lean-forward="false" selection-start-line="1165" selection-start-column="7" selection-end-line="1165" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ladies-other-services.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HTML/ladies-other-services.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="346">
+              <caret line="982" column="35" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="1165" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -58,18 +79,6 @@
             <state relative-caret-position="439">
               <caret line="173" column="16" lean-forward="false" selection-start-line="173" selection-start-column="16" selection-end-line="173" selection-end-column="16" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="customer-signup.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTML/customer-signup.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2176">
-              <caret line="128" column="0" lean-forward="false" selection-start-line="128" selection-start-column="0" selection-end-line="129" selection-end-column="131" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#10;n#form#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -121,8 +130,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -211,6 +220,7 @@
         <option value="$PROJECT_DIR$/HTML/assets/stylesheets/service.css" />
         <option value="$PROJECT_DIR$/HTML/login.html" />
         <option value="$PROJECT_DIR$/HTML/Appointment-success.html" />
+        <option value="$PROJECT_DIR$/HTML/Booking-process.html" />
       </list>
     </option>
   </component>
@@ -356,20 +366,20 @@
       <recent name="E:\SLIIT\3rd year\2nd semester\UEE\Assignments\A6\Salon Site\HTML\assets\stylesheets" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Appointment-success.html">
+  <component name="RunManager" selected="JavaScript Debug.ladies-other-services.html">
     <configuration default="false" name="login.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Salon Site/HTML/login.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="shopping-cart.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Salon Site/HTML/shopping-cart.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="customer-appointment-hostory.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Salon Site/HTML/customer-appointment-hostory.html">
       <method />
     </configuration>
     <configuration default="false" name="ui-elements-carousels.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Salon Site/HTML/ui-elements-carousels.html">
       <method />
     </configuration>
     <configuration default="false" name="Appointment-success.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Salon Site/HTML/Appointment-success.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="ladies-hair.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Salon Site/HTML/ladies-hair.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="ladies-other-services.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Salon Site/HTML/ladies-other-services.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -433,18 +443,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.login.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.shopping-cart.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.customer-appointment-hostory.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.ui-elements-carousels.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.Appointment-success.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.ui-elements-carousels.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.Appointment-success.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.ladies-hair.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.ladies-other-services.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Appointment-success.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.login.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.ui-elements-carousels.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.customer-appointment-hostory.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.shopping-cart.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.ladies-other-services.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.ladies-hair.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.Appointment-success.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.login.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.ui-elements-carousels.html" />
       </list>
     </recent_temporary>
   </component>
@@ -468,12 +478,12 @@
       <workItem from="1513744789253" duration="28206000" />
       <workItem from="1513774921991" duration="11293000" />
       <workItem from="1513834485813" duration="2754000" />
-      <workItem from="1513858804684" duration="7483000" />
+      <workItem from="1513858804684" duration="8318000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148895000" />
+    <option name="totallyTimeSpent" value="149730000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1365" height="745" extended-state="0" />
@@ -508,7 +518,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HTML/n2.html" />
     <entry file="file://$PROJECT_DIR$/HTML/assets/stylesheets/skins/new.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="524">
@@ -587,13 +596,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="972" column="64" lean-forward="false" selection-start-line="972" selection-start-column="64" selection-end-line="972" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/ladies-other-services.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="972" column="79" lean-forward="true" selection-start-line="972" selection-start-column="79" selection-end-line="972" selection-end-column="79" />
         </state>
       </provider>
     </entry>
@@ -835,6 +837,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="218">
           <caret line="980" column="92" lean-forward="true" selection-start-line="980" selection-start-column="92" selection-end-line="980" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/ladies-other-services.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="982" column="35" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="1165" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/Booking-process.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1034">
+          <caret line="1165" column="7" lean-forward="false" selection-start-line="1165" selection-start-column="7" selection-end-line="1165" selection-end-column="7" />
           <folding />
         </state>
       </provider>
