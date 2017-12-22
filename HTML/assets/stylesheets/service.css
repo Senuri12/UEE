@@ -127,7 +127,7 @@
 }
 .succ{
     font-size: 50px;
-    color:greenyellow;
+    color:	#008000;
     font-family: "Trebuchet MS", "Arial", "Helvetica", "Verdana", "sans-serif";
 }
 .insec1{
@@ -172,4 +172,7 @@
 
 .a{
     float: right;
+}
+.bgrd{
+    background-color: 	#7ec0ee;
 }
